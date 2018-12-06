@@ -4,6 +4,7 @@
   "description": "A Node.js tracing and instrumentation utility",
   "main": "njsTrace.js",
   "scripts": {
+    "test": "mocha test/index.test.js",
     "commit": "git-cz",
     "lint": "eslint \"**/*.js\""
   },
